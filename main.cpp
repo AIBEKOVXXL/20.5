@@ -12,7 +12,7 @@ bool isDigits(const std::string& str) {
 
 int main() {
     std::string name, date, amount;
-    std::ofstream file("C:\\20.5\\score.txt.txt", std::ios::app);
+    std::ofstream file("vedomost.txt", std::ios::app);
 
     if (!file) {
         std::cerr << "Error: Unable to open the file for writing!" << std::endl;
